@@ -17,6 +17,14 @@
 		468733672A288CEE00EF3BDE /* Akilli_KutuphaneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468733662A288CEE00EF3BDE /* Akilli_KutuphaneTests.swift */; };
 		468733712A288CEE00EF3BDE /* Akilli_KutuphaneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468733702A288CEE00EF3BDE /* Akilli_KutuphaneUITests.swift */; };
 		468733732A288CEE00EF3BDE /* Akilli_KutuphaneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468733722A288CEE00EF3BDE /* Akilli_KutuphaneUITestsLaunchTests.swift */; };
+		468733802A288E1300EF3BDE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4687337F2A288E1300EF3BDE /* GoogleService-Info.plist */; };
+		468733832A28909100EF3BDE /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 468733822A28909100EF3BDE /* FirebaseAuth */; };
+		468733852A28909100EF3BDE /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 468733842A28909100EF3BDE /* FirebaseDatabase */; };
+		468733872A28991400EF3BDE /* Ogrenci.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468733862A28991400EF3BDE /* Ogrenci.swift */; };
+		468733892A289C6200EF3BDE /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468733882A289C6200EF3BDE /* AuthenticationViewController.swift */; };
+		4687338B2A29BF2F00EF3BDE /* Masa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4687338A2A29BF2F00EF3BDE /* Masa.swift */; };
+		4687338D2A29D26300EF3BDE /* MasaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4687338C2A29D26300EF3BDE /* MasaCell.swift */; };
+		4687338F2A29DAC700EF3BDE /* DetayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4687338E2A29DAC700EF3BDE /* DetayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,12 @@
 		4687336C2A288CEE00EF3BDE /* Akilli KutuphaneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Akilli KutuphaneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		468733702A288CEE00EF3BDE /* Akilli_KutuphaneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Akilli_KutuphaneUITests.swift; sourceTree = "<group>"; };
 		468733722A288CEE00EF3BDE /* Akilli_KutuphaneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Akilli_KutuphaneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4687337F2A288E1300EF3BDE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		468733862A28991400EF3BDE /* Ogrenci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ogrenci.swift; sourceTree = "<group>"; };
+		468733882A289C6200EF3BDE /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
+		4687338A2A29BF2F00EF3BDE /* Masa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Masa.swift; sourceTree = "<group>"; };
+		4687338C2A29D26300EF3BDE /* MasaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasaCell.swift; sourceTree = "<group>"; };
+		4687338E2A29DAC700EF3BDE /* DetayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				468733852A28909100EF3BDE /* FirebaseDatabase in Frameworks */,
+				468733832A28909100EF3BDE /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,7 +124,13 @@
 				468733582A288CEE00EF3BDE /* Assets.xcassets */,
 				4687335A2A288CEE00EF3BDE /* LaunchScreen.storyboard */,
 				4687335D2A288CEE00EF3BDE /* Info.plist */,
+				4687337F2A288E1300EF3BDE /* GoogleService-Info.plist */,
 				468733552A288CEC00EF3BDE /* Akilli_Kutuphane.xcdatamodeld */,
+				468733862A28991400EF3BDE /* Ogrenci.swift */,
+				468733882A289C6200EF3BDE /* AuthenticationViewController.swift */,
+				4687338A2A29BF2F00EF3BDE /* Masa.swift */,
+				4687338C2A29D26300EF3BDE /* MasaCell.swift */,
+				4687338E2A29DAC700EF3BDE /* DetayViewController.swift */,
 			);
 			path = "Akilli Kutuphane";
 			sourceTree = "<group>";
@@ -146,6 +168,10 @@
 			dependencies = (
 			);
 			name = "Akilli Kutuphane";
+			packageProductDependencies = (
+				468733822A28909100EF3BDE /* FirebaseAuth */,
+				468733842A28909100EF3BDE /* FirebaseDatabase */,
+			);
 			productName = "Akilli Kutuphane";
 			productReference = 468733492A288CEC00EF3BDE /* Akilli Kutuphane.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +244,9 @@
 				Base,
 			);
 			mainGroup = 468733402A288CEC00EF3BDE;
+			packageReferences = (
+				468733812A28909100EF3BDE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 4687334A2A288CEC00EF3BDE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -236,6 +265,7 @@
 			files = (
 				4687335C2A288CEE00EF3BDE /* LaunchScreen.storyboard in Resources */,
 				468733592A288CEE00EF3BDE /* Assets.xcassets in Resources */,
+				468733802A288E1300EF3BDE /* GoogleService-Info.plist in Resources */,
 				468733542A288CEC00EF3BDE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,9 +291,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				468733872A28991400EF3BDE /* Ogrenci.swift in Sources */,
 				468733512A288CEC00EF3BDE /* ViewController.swift in Sources */,
 				4687334D2A288CEC00EF3BDE /* AppDelegate.swift in Sources */,
+				4687338D2A29D26300EF3BDE /* MasaCell.swift in Sources */,
 				4687334F2A288CEC00EF3BDE /* SceneDelegate.swift in Sources */,
+				4687338B2A29BF2F00EF3BDE /* Masa.swift in Sources */,
+				468733892A289C6200EF3BDE /* AuthenticationViewController.swift in Sources */,
+				4687338F2A29DAC700EF3BDE /* DetayViewController.swift in Sources */,
 				468733572A288CEC00EF3BDE /* Akilli_Kutuphane.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -606,6 +641,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		468733812A28909100EF3BDE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		468733822A28909100EF3BDE /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 468733812A28909100EF3BDE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		468733842A28909100EF3BDE /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 468733812A28909100EF3BDE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		468733552A288CEC00EF3BDE /* Akilli_Kutuphane.xcdatamodeld */ = {
