@@ -25,6 +25,8 @@
 		4687338B2A29BF2F00EF3BDE /* Masa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4687338A2A29BF2F00EF3BDE /* Masa.swift */; };
 		4687338D2A29D26300EF3BDE /* MasaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4687338C2A29D26300EF3BDE /* MasaCell.swift */; };
 		4687338F2A29DAC700EF3BDE /* DetayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4687338E2A29DAC700EF3BDE /* DetayViewController.swift */; };
+		468733912A2B76CF00EF3BDE /* deneme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468733902A2B76CF00EF3BDE /* deneme.swift */; };
+		468733932A2CA8F300EF3BDE /* BackgroundTaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468733922A2CA8F300EF3BDE /* BackgroundTaskManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		4687338A2A29BF2F00EF3BDE /* Masa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Masa.swift; sourceTree = "<group>"; };
 		4687338C2A29D26300EF3BDE /* MasaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasaCell.swift; sourceTree = "<group>"; };
 		4687338E2A29DAC700EF3BDE /* DetayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayViewController.swift; sourceTree = "<group>"; };
+		468733902A2B76CF00EF3BDE /* deneme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deneme.swift; sourceTree = "<group>"; };
+		468733922A2CA8F300EF3BDE /* BackgroundTaskManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundTaskManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +135,8 @@
 				4687338A2A29BF2F00EF3BDE /* Masa.swift */,
 				4687338C2A29D26300EF3BDE /* MasaCell.swift */,
 				4687338E2A29DAC700EF3BDE /* DetayViewController.swift */,
+				468733902A2B76CF00EF3BDE /* deneme.swift */,
+				468733922A2CA8F300EF3BDE /* BackgroundTaskManager.swift */,
 			);
 			path = "Akilli Kutuphane";
 			sourceTree = "<group>";
@@ -298,7 +304,9 @@
 				4687334F2A288CEC00EF3BDE /* SceneDelegate.swift in Sources */,
 				4687338B2A29BF2F00EF3BDE /* Masa.swift in Sources */,
 				468733892A289C6200EF3BDE /* AuthenticationViewController.swift in Sources */,
+				468733912A2B76CF00EF3BDE /* deneme.swift in Sources */,
 				4687338F2A29DAC700EF3BDE /* DetayViewController.swift in Sources */,
+				468733932A2CA8F300EF3BDE /* BackgroundTaskManager.swift in Sources */,
 				468733572A288CEC00EF3BDE /* Akilli_Kutuphane.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -479,11 +487,14 @@
 				DEVELOPMENT_TEAM = H5Z575J4ZY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Akilli Kutuphane/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Uygulama QR Kodunu tarayabilmek için kamera kullanıyor";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Uygulamamızı kullanırken konum bilginizi kullanıyoruz.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -507,11 +518,14 @@
 				DEVELOPMENT_TEAM = H5Z575J4ZY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Akilli Kutuphane/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Uygulama QR Kodunu tarayabilmek için kamera kullanıyor";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Uygulamamızı kullanırken konum bilginizi kullanıyoruz.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

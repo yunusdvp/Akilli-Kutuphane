@@ -10,14 +10,15 @@ import UIKit
 class MasaCell: UICollectionViewCell {
     @IBOutlet weak var masaAdLabel: UILabel!
     
+    
     func configure(with masa: Masa) {
         if let masaAd = masa.masa_ad, let masaDurum = masa.masa_durum {
             masaAdLabel.text = masaAd
             
             if masaDurum {
-                backgroundColor = UIColor.green
+                backgroundColor = .red
             } else {
-                backgroundColor = UIColor.red
+                backgroundColor = .green
             }
         }
     }
